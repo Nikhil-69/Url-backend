@@ -11,7 +11,6 @@ import java.nio.charset.StandardCharsets;
 
 @RestController
 @RequestMapping("/")
-@CrossOrigin(origins = "*")
 public class UrlController {
 
     @Autowired

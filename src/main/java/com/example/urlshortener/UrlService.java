@@ -8,7 +8,7 @@ public class UrlService {
 
     @Autowired
     private UrlDao urlDao;
-    String MainUrl = "http://provider.apac.spheron.wiki:32587/goto/";
+    String MainUrl = "https://url-backend-js4h.onrender.com/goto/";
     public String shortenUrl(String originalUrl) {
         originalUrl= originalUrl;
         int hashCode = originalUrl.hashCode();
